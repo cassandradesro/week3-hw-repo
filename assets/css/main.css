@@ -74,15 +74,21 @@ header > img {
   justify-content: center; }
   .post-body img {
     flex: 1; }
+  .post-body .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 250px; }
 
 .post-image {
   margin: 0 auto;
   position: relative;
-  width: 80%;
+  flex: 1 200px;
+  margin: 10px;
   overflow: hidden; }
   .post-image img {
     width: 100%; }
   .post-image figcaption {
+    display: flex;
     position: absolute;
     bottom: 0;
     color: #fff;
@@ -90,18 +96,18 @@ header > img {
     padding: 25px;
     background: rgba(0, 0, 0, 0.6);
     transition: 0.2s;
-    transform: translateY(100%);
-    display: flex;
-    flex-direction: column; }
+    transform: translateY(100%); }
     .post-image figcaption p {
-      font-size: 20px; }
+      flex: 2; }
   .post-image:hover figcaption {
     transform: translateY(0); }
 
-.fa {
-  color: #fff;
-  font-size: 60px;
-  text-decoration: none;
-  margin-right: 20px; }
+.social {
+  flex: 1;
+  align-items: flex0end; }
+  .social .fa {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
