@@ -1,0 +1,107 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Variables
+2. Components
+3. Main Layout
+4. Content
+
+
+% - don't include this in final css
+==============================================
+*/
+/* 1. Variables ================================= */
+/* 2. Components ================================= */
+.author {
+  display: flex;
+  align-items: flex-start; }
+  .author .media-figure {
+    margin-right: 1em; }
+  .author .media-body {
+    flex: 1; }
+
+/* 3. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  font-family: Helvetica, Arial, sans-serif; }
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600; }
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 600; }
+
+h3 {
+  font-size: 1.2em; }
+
+article {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+section {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  margin: 0 auto; }
+
+header > img {
+  width: 100%;
+  min-height: 200px;
+  object-fit: cover; }
+
+/* 4. Content ================================= */
+.author {
+  max-width: 800px;
+  margin: 10px auto; }
+  .author .media-figure {
+    border-radius: 80px; }
+
+.post-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .post-body img {
+    flex: 1; }
+
+.post-image {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  overflow: hidden; }
+  .post-image img {
+    width: 100%; }
+  .post-image figcaption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: 0.2s;
+    transform: translateY(100%);
+    display: flex;
+    flex-direction: column; }
+    .post-image figcaption p {
+      font-size: 20px; }
+  .post-image:hover figcaption {
+    transform: translateY(0); }
+
+.fa {
+  color: #fff;
+  font-size: 60px;
+  text-decoration: none;
+  margin-right: 20px; }
+
+/*# sourceMappingURL=main.css.map */
