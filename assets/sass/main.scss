@@ -38,7 +38,8 @@ TABLE OF CONTENTS:
 }
 
 body {
-	background: #fff;	
+	background: #FCD1D7;	
+	color: #063784;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -123,9 +124,9 @@ header{
 		color: #fff;
 		width: 100%;
 		padding: 25px;
-		background: rgba(0,0,0, 0.6);
+		background: #5FDDCA;
 		transition: 0.2s;
-		transform: translateY(100%);
+		transform: translateX(100%);
 		p{
 			flex: 2;
 		}
